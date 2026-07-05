@@ -1,0 +1,17 @@
+# MATLAB backup files created automatically during editing
+*.asv
+
+# Temporary backup files created by some text editors
+*.m~
+*.autosave
+
+# Hidden operating system files
+.DS_Store
+Thumbs.db
+
+# Automatically generated model output folders
+HeatAvailability*/
+HeatExtraction*/
+
+# Saved simulation variables generated during model execution
+SimulationVars*
