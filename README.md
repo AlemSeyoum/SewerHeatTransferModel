@@ -261,6 +261,12 @@ The model requires:
 Python is only required if the optional pipe ordering script is used.
 ---
 
+## Development and Contributions
+
+The Sewer Heat Transfer Model was orginally developed by Dr.Mohamad Abdel-Aal, University of Exeter, UK and subsequently updated and extended by Dr. Alemtsehay Seyoum, University of Sheffield, UK. 
+
+---
+
 ## References
 
 Model parameter values, environmental temperature inputs, and other supporting data are based on published literature sources, which are provided in `parameter_table.xlsx`.

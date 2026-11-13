@@ -7,7 +7,7 @@ tic; clc; clear; close all; format long
 %   "availability"  = heat availability simulation; no heat is extracted
 %   "extraction"    = heat extraction simulation; heat is removed at HexPipes
 
-simulationMode = "availability";     % change to "extraction" when needed
+simulationMode = "extraction";     % change to "extraction" when needed
 
 exportTag = "Feb";
 
@@ -596,7 +596,7 @@ SoilTemp = 9 * ones(m, numberOfPipes);
 % ------------------------------------------------
 % Load measured foul temperature profile
 % ------------------------------------------------
-tblF = readtable('Measured_Tfoul_Feb.csv');
+tblF = readtable('WastewaterTemperature_Feb.csv');
 
 Tfoul_src = tblF{:,2};          % column 2 = temperature
 
